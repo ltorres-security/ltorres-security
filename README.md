@@ -10,7 +10,7 @@ Entry-level IT and cybersecurity learner based in Charlotte, NC. I'm building ha
 
 ## Cybersecurity Labs
 
-Each lab runs in an Ubuntu Linux virtual machine (VirtualBox) and includes the commands, evidence, and findings.
+Each lab includes the steps, evidence, and findings. Most run in an Ubuntu Linux virtual machine (VirtualBox); the VLAN lab uses Cisco Packet Tracer.
 
 | Lab | What I investigated |
 |---|---|
@@ -18,6 +18,8 @@ Each lab runs in an Ubuntu Linux virtual machine (VirtualBox) and includes the c
 | [TCP, TLS & HTTPS](https://github.com/ltorres-security/CyberLab-TCP-TLS-HTTPS-02) | TCP handshake and TLS 1.3 negotiation, and what stays visible vs. encrypted |
 | [Linux Security Logs](https://github.com/ltorres-security/CyberLab-Linux-Security-Logs-03) | Tracing a failed sudo authentication with journalctl and regex |
 | [SSH Authentication](https://github.com/ltorres-security/CyberLab-SSH-Authentication-04) | Comparing successful and failed SSH logins in the system logs |
+| [Linux Processes & Ports](https://github.com/ltorres-security/CyberLab-Processes-Ports-05) | Tracing a listening TCP port to its process, user, and command |
+| [VLAN Segmentation](https://github.com/ltorres-security/CyberLab-VLAN-Segmentation) | Isolating a guest PC from clinic PCs with VLANs in Cisco Packet Tracer |
 
 ## Skills
 
