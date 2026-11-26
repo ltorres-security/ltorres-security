@@ -21,9 +21,9 @@ Each lab runs in an Ubuntu Linux virtual machine (VirtualBox) and includes the c
 
 ## Skills
 
-**Systems and tools:** Linux, SQL, Python (beginner), Wireshark, Git, VirtualBox
-**Security:** log analysis, network traffic analysis, SIEM and IDS fundamentals
-**Languages:** English and Spanish
+- **Systems and tools:** Linux, SQL, Python (beginner), Wireshark, Git, VirtualBox
+- **Security:** log analysis, network traffic analysis, SIEM and IDS fundamentals
+- **Languages:** English and Spanish
 
 ## Currently
 
