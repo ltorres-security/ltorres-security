@@ -23,8 +23,8 @@ Each lab includes the steps, evidence, and findings. Most run in an Ubuntu Linux
 
 ## Skills
 
-- **Systems and tools:** Linux, SQL, Python (beginner), Wireshark, Git, VirtualBox
-- **Security:** log analysis, network traffic analysis, SIEM and IDS fundamentals
+- **Systems and tools:** Linux, SQL, Python (beginner), Wireshark, Git, VirtualBox, Cisco Packet Tracer
+- **Security:** log analysis, network traffic analysis, SIEM and IDS fundamentals, VLAN network segmentation
 - **Languages:** English and Spanish
 
 ## Currently
