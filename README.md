@@ -10,9 +10,9 @@ Entry-level IT and cybersecurity learner based in Charlotte, NC. I'm building ha
 
 ## Cybersecurity Labs
 
-Each lab includes the steps, evidence, and findings. Most run in an Ubuntu Linux virtual machine (VirtualBox); labs 06 to 08 add a Kali Linux attacker and a Wazuh SIEM in an isolated host-only network, and the VLAN lab uses Cisco Packet Tracer.
+Each lab includes the steps, evidence, and findings. Most run in an Ubuntu Linux virtual machine (VirtualBox); labs 06 to 09 add a Kali Linux attacker and a Wazuh SIEM in an isolated host-only network, and the VLAN lab uses Cisco Packet Tracer.
 
-**Featured: labs 06 to 08 form one detection-and-response project.** A real SSH brute-force attack is analyzed by hand, detected with my own Bash script, detected again in a SIEM with a custom rule, and finally contained automatically by blocking the attacker's IP.
+**Featured: labs 06 to 09 form one detection-and-response project.** A real SSH brute-force attack is analyzed by hand, detected with my own Bash script, detected again in a SIEM with a custom rule, and finally contained automatically by blocking the attacker's IP, then tuned with clock synchronization and escalating block times.
 
 | Lab | What I investigated |
 |---|---|
@@ -24,6 +24,7 @@ Each lab includes the steps, evidence, and findings. Most run in an Ubuntu Linux
 | [SSH Brute-Force Detection](https://github.com/ltorres-security/CyberLab-SSH-Bruteforce-Detection-06) | Hydra attack from Kali, log analysis, and a custom Bash detection script (MITRE T1110) |
 | [Wazuh SIEM Detection](https://github.com/ltorres-security/CyberLab-Wazuh-SIEM-Detection-07) | Wazuh agent and dashboard, why the default brute-force rule missed the attack, and a custom rule that caught it |
 | [Wazuh Active Response](https://github.com/ltorres-security/CyberLab-Wazuh-Active-Response-08) | Automatic IP blocking with firewall-drop, verified end to end, including the automatic unblock |
+| [Wazuh Clock Sync and Repeat Offenders](https://github.com/ltorres-security/CyberLab-Wazuh-Clock-Sync-Repeat-Offenders-09) | Fixed VM clock drift with chrony and made repeat attackers get longer IP blocks (120 s, then 181 s) |
 | [VLAN Segmentation](https://github.com/ltorres-security/CyberLab-VLAN-Segmentation) | Isolating a guest PC from clinic PCs with VLANs in Cisco Packet Tracer |
 
 ## Skills
